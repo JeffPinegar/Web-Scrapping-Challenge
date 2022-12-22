@@ -15,18 +15,14 @@ is also representative of how these files will be used in the real world. Update
 manufacturing information do not occur at the same time. Therefore they will be processed separately. I anticipate new 
 challenges requiring additional transformations, so keeping the load separate will avoid the loading date before it is 
 properly transformed.
-<br>
-<br>
+<br><br>
 <h4>JSP_part_1_mars_news.ipynb</h4>
 In the first part we scrapped a news site for news articles.  We were asked to scrape the title and the short description.  In addition I scrapped the data posted since news isn’t news unless you know the date.
-
 <br><br>
 <h4>JSP_part_2_mars_weather.ipynb</h4>
 In the second part we were asked to scrap mars temperature and pressure observations from a website.  The scrappings were loaded into a pandas data frame.  Scrapping brings everything as text (strings).  Therefore, once we scrapped the data, we needed to transform the data into the appropriate data types (int, datatime and floats).
-
-<br><br>
+<br>
 Once the data was in a data frame we used that data to answer question and generate summary charts.
-
 <br><br>
 <h2>Outputs</h2>
  While working on Part 1 and Part 2 the following files were generated and stored in the subdirectory ‘Outputs’
